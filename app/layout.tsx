@@ -2,7 +2,6 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { IBM_Plex_Mono } from "next/font/google";
 import { ViewTransitions } from "next-view-transitions";
-import { Analytics } from "@vercel/analytics/react";
 
 const IBMPlexMono = IBM_Plex_Mono({
 	subsets: ["latin"],
@@ -36,7 +35,6 @@ export default function RootLayout({
 							{children}
 						</main>
 						<Footer />
-						<Analytics />
 					</div>
 				</body>
 			</html>
