@@ -23,12 +23,12 @@ export default async function sitemap() {
 	const slugs = await getNoteSlugs(notesDirectory);
 
 	const notes = slugs.map((slug) => ({
-		url: `https://bine.code/n/${slug}`,
+		url: `https://bine.codes/n/${slug}`,
 		lastModified: new Date().toISOString(),
 	}));
 
 	const routes = [""].map((route) => ({
-		url: `https://bine.code${route}`,
+		url: `https://bine.codes${route}`,
 		lastModified: new Date().toISOString(),
 	}));
 
