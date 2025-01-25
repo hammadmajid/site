@@ -15,10 +15,7 @@ export const metadata: Metadata = {
 	alternates: {
 		canonical: "/",
 	},
-	title: {
-		default: "Hammad Majid",
-		template: "%s | Hammad Majid",
-	},
+	title: "bine",
 	description: "Frontend developer and a student.",
 };
 
